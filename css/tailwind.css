@@ -3,3 +3,23 @@
 @tailwind components;
 
 @tailwind utilities;
+
+.alert {
+  @apply rounded border py-2 my-2;
+}
+
+.alert-default {
+  @apply bg-gray-300 border-gray-700 text-gray-700;
+}
+
+.alert-danger {
+  @apply bg-red-300 border-red-700 text-red-700;
+}
+
+.alert-warning {
+  @apply bg-yellow-300 border-yellow-700 text-yellow-700;
+}
+
+.alert-info {
+  @apply bg-blue-300 border-blue-700 text-blue-700;
+}
