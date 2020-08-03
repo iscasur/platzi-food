@@ -7,7 +7,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        cyan: "#9cdbff",
+        primary: "#f3c514",
+        secondary: "#353535",
+      },
+      height: {
+        "80": "20rem",
+        "100": "25rem",
       },
     },
   },
