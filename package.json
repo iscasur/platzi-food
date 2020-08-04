@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "live-server public",
-    "build": "postcss css/tailwind.css -o public/css/style.css",
-    "watch": "postcss css/tailwind.css -o public/css/style.css -w"
+    "build": "postcss css/tailwind.css -o docs/css/style.css",
+    "watch": "postcss css/tailwind.css -o docs/css/style.css -w"
   },
   "keywords": [],
   "author": "",
